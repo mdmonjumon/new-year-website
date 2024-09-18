@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common shared styles */
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+header {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 250px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    border: 0;
+    padding: 20px 25px;
+    color: rgb(0, 95, 172);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+/* header styles */
+
+.header-section {
+    text-align: right;
+    padding: 300px 200px 0px 0px;
+}
+
+.header-title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-description {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 0;
+}
