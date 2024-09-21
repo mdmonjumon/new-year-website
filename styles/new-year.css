@@ -44,7 +44,7 @@ main {
 /* header styles */
 
 header {
-    background-image: url(../images/banner/banner3.png);
+    background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -87,7 +87,7 @@ header {
 }
 
 .failure-img {
-    border: 2px dashed black;
+    border: 2px dashed #D9D9D9;
 }
 
 
@@ -106,7 +106,7 @@ header {
     justify-content: space-between;
 }
 
-.plan-info-container{
+.plan-info-container {
     text-align: center;
 }
 
@@ -123,3 +123,20 @@ header {
     font-weight: 500;
 }
 
+/* positive mindset section styles */
+
+.mindset-section {
+    background-image:linear-gradient(90.00deg, rgb(0, 95, 172),rgba(0, 95, 172, 0) 90%), url('../images/watch.png');
+    background-size: cover;
+    margin: 130px 0px;
+    padding: 60px;
+    border-radius: 8px;
+}
+
+.mindset-title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 20px;
+}
